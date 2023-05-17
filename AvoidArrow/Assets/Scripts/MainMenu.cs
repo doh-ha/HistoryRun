@@ -15,4 +15,14 @@ public class MainMenu : MonoBehaviour
     {
         
     }
+
+    public void OnClickStart(){
+        Debug.Log("게임 시작");
+    }
+
+    public void OnClickContinue(){
+        Debug.Log("게임 이어하기"); 
+    }
+
+    
 }
